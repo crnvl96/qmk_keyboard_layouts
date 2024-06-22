@@ -13,21 +13,13 @@
 #undef QUICK_TAP_TERM
 #define QUICK_TAP_TERM 0
 
-// combos config
-#define COMBO_TERM 40
-#define EXTRA_SHORT_COMBOS
-
-// Mouse key speed and acceleration.
 #undef MOUSEKEY_DELAY
-#undef MOUSEKEY_INTERVAL
-#undef MOUSEKEY_MOVE_DELTA
-#undef MOUSEKEY_MAX_SPEED
-#undef MOUSEKEY_TIME_TO_MAX
-#undef MOUSEKEY_WHEEL_DELAY
-
 #define MOUSEKEY_DELAY          0
+#undef MOUSEKEY_INTERVAL
 #define MOUSEKEY_INTERVAL       16
-#define MOUSEKEY_MOVE_DELTA     4
-#define MOUSEKEY_MAX_SPEED      3
-#define MOUSEKEY_TIME_TO_MAX    64
+#undef MOUSEKEY_WHEEL_DELAY
 #define MOUSEKEY_WHEEL_DELAY    0
+#undef MOUSEKEY_MAX_SPEED
+#define MOUSEKEY_MAX_SPEED      6
+#undef MOUSEKEY_TIME_TO_MAX
+#define MOUSEKEY_TIME_TO_MAX    64
